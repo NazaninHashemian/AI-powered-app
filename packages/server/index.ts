@@ -6,10 +6,6 @@ import { chatService } from './services/chat.service';
 
 dotenv.config();
 
-// const client = new OpenAI({
-//    apiKey: process.env.OPENAI_API_KEY
-// });
-
 const app = express();
 app.use(express.json());
 const port = process.env.PORT || 3000;
